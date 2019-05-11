@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 try:
     # Python 2
     import Tkinter as tk

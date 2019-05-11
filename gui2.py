@@ -1,19 +1,17 @@
+#!/usr/bin/env python
+
 import sys
-from tkinter.filedialog import askopenfilename
 
 try:
     # Python 2
     from Tkinter import *
+    from tkFileDialog import askopenfilename
+    import ttk
 except ImportError:
     # Python 3
     from tkinter import *
-
-try:
-    import ttk
-    py3 = 0
-except ImportError:
+    from tkinter.filedialog import askopenfilename
     import tkinter.ttk as ttk
-    py3 = 1
 
 def vp_start_gui():
     '''Starting point when module is the main routine.'''

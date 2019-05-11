@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from openpyxl import load_workbook
 import numpy as np
 import matplotlib.pyplot as plt
