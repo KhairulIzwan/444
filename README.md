@@ -20,3 +20,5 @@
 8.  devApp.py
 
 ![GitHub Logo](img/janggut_touch_app.png)
+
+![GitHub Logo](img/janggut_touch_app_1.png)
